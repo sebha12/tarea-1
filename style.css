@@ -1,0 +1,65 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.logo {
+    color: white;
+    display: flex;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.link {
+    margin: 0 90px;
+}
+a {
+    padding: 4px;
+    margin: 0;
+    color: white;
+    
+}
+
+a:hover {
+    color: blue;
+}
+
+.img-2 img {
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;   
+}
+
+.hero {
+    display: flex;
+    padding: 0;
+}
+
+h3 {
+    margin: 0 20px;
+}
+
+p {
+    margin: 0 14px;
+    padding: 10px;
+}
+
+p a {
+    color: black;
+}
+
+p a:hover {
+    color: blue;
+}
